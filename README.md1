@@ -1,0 +1,53 @@
+# 📚 Library Management System
+
+## 📌 Project Overview
+This project is a simple Library Management System developed using MySQL.
+It allows librarians to manage books, members, categories, and borrowing operations.
+
+## 🛠️ Technologies Used
+
+* MySQL Server 8.0
+* MySQL Workbench
+* SQL Queries
+
+## 📂 Database Tables
+
+| Table Name | Description             |
+| ---------- | ----------------------- |
+| Books      | Stores book information |
+| Members    | Stores member details   |
+| Borrowings | Tracks borrowed books   |
+| Categories | Stores book categories  |
+
+## ✨ Features
+
+* Add new books
+* Add library members
+* Manage book categories
+* Borrow and return books
+* Use SQL JOIN queries to generate reports
+
+## 🔍 Example Query
+
+SELECT
+Books.Title,
+Books.Author,
+Categories.CategoryName
+FROM Books
+JOIN Categories
+ON Books.CategoryID = Categories.CategoryID;
+
+## 🚀 Future Improvements
+
+* Create a graphical user interface (GUI)
+* Add user authentication
+* Generate printable reports
+* Connect the database with a web application
+
+## 👩‍💻 Developed By
+
+Nada Zahran
+Computer Engineering
+Founder of NW Nexus
+
+Founder of NW Nexus
