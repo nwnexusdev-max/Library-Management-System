@@ -47,8 +47,6 @@ ON Books.CategoryID = Categories.CategoryID;
 * Connect the database with a web application
 
 ## 👩‍💻 Developed By
-
-Nada Zahran
 Computer Engineering
 
 Founder of NW Nexus
