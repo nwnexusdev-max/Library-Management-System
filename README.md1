@@ -48,5 +48,4 @@ ON Books.CategoryID = Categories.CategoryID;
 
 ## 👩‍💻 Developed By
 Computer Engineering
-
 Founder of NW Nexus
